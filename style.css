@@ -1,0 +1,62 @@
+body{
+    font-family: "Playfair Display", serif;
+    background-image: url("imagen/cool-background.png");
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+
+}
+.square{
+    width: 80px;
+    height: 80px;
+    border: none;
+    background-color: #b7bec2;
+    outline: none;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-family: "Fira Sans Condensed", sans-serif;
+}
+.result{
+    text-align: center;
+    font-size: 38px;
+}
+.button{
+    width: 170px;
+    height: 60px;
+    border-radius: 16px;
+    border: none;
+    background-color: #33FF00;
+    font-family: "Playfair Display", serif;
+    font-size: 32px;
+    color: white;
+}
+.button:hover{
+    border: 3px solid #33FF00;
+    background-color: white;
+    color: #33FF00;
+    cursor: pointer;
+}
+.gris{
+    background-color: #666666;
+}
+.amarillo{
+    background-color: #FFCC00;
+}
+
+.verde{
+    background-color: #33FF00;
+}
